@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="bank">
+        <h1 class="text-center text-primary m-5 fw-bold">Banking By JS</h1>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="deposit p-5 bg-secondary w-75 text-white mb-5">
+                        <h3>Deposit</h3>
+                        <h4>$<span id="deposit-amount">0.00</span></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="withdraw p-5 bg-warning w-75 text-white mb-5">
+                        <h3>Withdrawal</h3>
+                        <h4>$<span id="withdraw-amount">0.00</span></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="total-balance p-5 bg-success w-75 text-white mb-5">
+                        <h3>Total Balance</h3>
+                        <h4>$<span id="balance-total">1240</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="mt-4">
+                        <input type="text" class="w-75" name="" id="deposit-input"><br><br>
+                        <button class="btn bg-primary text-white" type="button" id="deposit-btn">Deposit</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="mt-4">
+                        <input type="text" class="w-75" name="" id="withdraw-input"><br><br>
+                        <button class="btn bg-info text-white" type="button" id="withdraw-btn">Withdraw</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <span>
+        <script src="bank.js"></script>
+</body>
+
+</html>
